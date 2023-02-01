@@ -16,3 +16,5 @@ const sliderImages = document.querySelectorAll('.slide-in');
                 }
             });
         }
+
+        window.addEventListener('scroll', debounce(checkSlide));
